@@ -1,4 +1,4 @@
-<p align="center"><img width=12.5% src=""></p>
+[//]: # <p align="center"><img width=12.5% src=""></p>
 
 # RatingReviews
 ___
@@ -116,7 +116,7 @@ If you want to contribute to the project and make it better whether it's a bug f
 ### Motivation
 
 There was no visual 5 star rating system right off the bat when I needed for a project.
-Special thanks to the chart libraries where I took inspiration from.
+Special thanks to the chart libraries where I took some inspiration from.
 
 ### License
 ```
