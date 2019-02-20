@@ -3,7 +3,7 @@
 # RatingReviews
 ___
 
-![](https://img.shields.io/badge/build-passing-brightgreen.svg) ![](https://img.shields.io/badge/API-16%2B-red.svg) ![](https://img.shields.io/badge/release-v0.3.2-blue.svg) ![](https://img.shields.io/badge/tag-v1.0.0-blue.svg) ![](http://img.shields.io/badge/license-Apache_2.0-red.svg) ![](https://img.shields.io/badge/contributions-welcomed-orange.svg)
+![](https://img.shields.io/badge/build-passing-brightgreen.svg) ![](https://img.shields.io/badge/API-16%2B-red.svg) ![](https://img.shields.io/badge/release-v1.0.0-blue.svg) ![](https://img.shields.io/badge/tag-v1.0.0-blue.svg) ![](http://img.shields.io/badge/license-Apache_2.0-red.svg) ![](https://img.shields.io/badge/contributions-welcomed-orange.svg)
 
 RatingReviews (*Rating and Reviews*) is a widget or layout that adds Rating and Reviews bar to your app similar to the ones seen on Google playstore and Apple App store. It gives you a beautiful visual summary of the number of raters and ratings they gave on a specific item. And of course it is highly customizable to fit your app theme! ✨✂📐🛠 
 
@@ -82,7 +82,7 @@ Using RatingReviews is very simple and straight forward. Here is an example:
         bar:max_value="100"
         bar:show_label="true"
         bar:spaces="0dp"
-        bar:text_color="#808080"
+        bar:text_color="#333333"
         bar:text_size="10sp"
         bar:width="15dp" />
 ```
@@ -91,13 +91,15 @@ Using RatingReviews is very simple and straight forward. Here is an example:
 
 Table below shows the parameters and attributes for furthur customization to suit your needs:
 
-| Attribute | Description | Options |
+| Attribute | Description | Options (examples) |
 | ------ | ------ | ------ |
 | animation | of the bars from left to right  | true, false |
-| show_label | of the bars for example: 1, 2, 3, 4, 5  | STYPE1,  STYPE2|
-| animation | of the bars from left to right  | true, false |
-| animation | of the bars from left to right  | true, false |
-| animation | of the bars from left to right  | true, false |
+| show_label | of the bars for example: 1, 2, 3, 4, 5  | STYPE1,  STYPE2, STYPE3, STYPE4|
+| max_value | max value for the ratings  | 100 etc |
+| text_color | color of the texts for example the labels  | color int |
+| text_size | text size of labels  | 10sp, 12sp etc |
+| width | bar width  | 8dp, 15dp etc |
+| spaces | space between bars  | 1sp, 2dp etc |
 
 
 ### Contribution
