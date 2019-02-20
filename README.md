@@ -10,10 +10,10 @@ RatingReviews (*Rating and Reviews*) is a widget or layout that adds Rating and 
 
 ### Screenshots
 
-| [![VideoBlocks](https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/logo.png)](http://videoblocks.com)  | [![AudioBlocks](https://dtyn3c8zjrx01.cloudfront.net/img/assets/audioblocks/images/logo.png)](http://audioblocks.com) | [![GraphicStock](http://www.graphicstock.com/images/logo.jpg)](http://graphicstock.com) |
-[![AudioBlocks](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/0.png)](http://audioblocks.com) |
+| [![](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/0.png)](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/0.png)  | [![](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/1.png)](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/1.png) | [![](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/2.png)](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/2.png) |
+[![AudioBlocks](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/3.png)](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/3.png) |
 |:---:|:---:|:---:|:---:|
-| playstore (*style1*) | appstore (*style2*) | customized | customized |
+| playstore (*style1*) | appstore (*style2*) | customized (*style2*) | customized (*style2*) |
 
 
 You can also:
