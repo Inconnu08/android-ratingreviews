@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RatingReviews">
+
+        <attr name="style" format="enum">
+            <enum name="style1" value="1" />
+            <enum name="style2" value="2" />
+        </attr>
+
+        <attr name="color" format="color" />
+        <attr name="gradiant" format="integer" />
+        <attr name="width" format="dimension" />
+        <attr name="text_size" format="dimension" />
+        <attr name="text_color" format="color" />
+        <attr name="spaces" format="dimension" />
+        <attr name="max_value" format="integer" />
+        <attr name="show_label" format="boolean" />
+        <attr name="show_raters" format="boolean" />
+        <attr name="animation" format="boolean" />
+
+    </declare-styleable>
+</resources>
