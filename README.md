@@ -20,13 +20,19 @@ You can also:
   - Take an existing style (*style1 and style2*) and customise it to get your desired style.
 
 
-> The overriding design goal for Markdown's
 
 
 ### Installation
+In your root build.gradle at the end of repositories:
+```
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
 
-```
-```
 
 ### Usage
 
