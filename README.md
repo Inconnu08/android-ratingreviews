@@ -3,7 +3,7 @@
 # RatingReviews
 ___
 
-![](https://img.shields.io/badge/build-passing-brightgreen.svg) ![](https://img.shields.io/badge/API-16%2B-red.svg) ![](https://img.shields.io/badge/release-v0.3.2-blue.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) [![Apache license](http://img.shields.io/badge/license-Apache_2.0-red.svg)](http://opensource.org/licenses/apache)  ![Contributions welcome](https://img.shields.io/badge/contributions-welcomed-orange.svg)
+![](https://img.shields.io/badge/build-passing-brightgreen.svg) ![](https://img.shields.io/badge/API-16%2B-red.svg) ![](https://img.shields.io/badge/release-v0.3.2-blue.svg) ![](https://img.shields.io/badge/tag-v1.0.0-blue.svg) ![](http://img.shields.io/badge/license-Apache_2.0-red.svg) ![](https://img.shields.io/badge/contributions-welcomed-orange.svg)
 
 RatingReviews (*Rating and Reviews*) is a widget or layout that adds Rating and Reviews bar to your app similar to the ones seen on Google playstore and Apple App store. It gives you a beautiful visual summary of the number of raters and ratings they gave on a specific item. And of course it is highly customizable to fit your app theme! ✨✂📐🛠 
 
@@ -11,7 +11,7 @@ RatingReviews (*Rating and Reviews*) is a widget or layout that adds Rating and 
 ### Screenshots
 
 | [![](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/0.png)](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/0.png)  | [![](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/1.png)](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/1.png) | [![](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/2.png)](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/2.png) |
-[![AudioBlocks](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/3.png)](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/3.png) |
+[![](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/3.png)](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/3.png) |
 |:---:|:---:|:---:|:---:|
 | playstore (*style1*) | appstore (*style2*) | customized (*style2*) | customized (*style2*) |
 
@@ -32,7 +32,10 @@ In your root build.gradle at the end of repositories:
 		}
 	}
 ```
-
+In your app build.gradle:
+```
+implementation 'com.github.Inconnu08:android-ratingreviews:1.0.0'
+```
 
 ### Usage
 
@@ -88,22 +91,20 @@ Using RatingReviews is very simple and straight forward. Here is an example:
 
 Table below shows the parameters and attributes for furthur customization to suit your needs:
 
-| Attribute | README | Description | Example |
-| ------ | ------ | ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
-| Github | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+| Attribute | Description | Options |
+| ------ | ------ | ------ |
+| animation | of the bars from left to right  | true, false |
+| show_label | of the bars for example: 1, 2, 3, 4, 5  | STYPE1,  STYPE2|
+| animation | of the bars from left to right  | true, false |
+| animation | of the bars from left to right  | true, false |
+| animation | of the bars from left to right  | true, false |
 
 
 ### Contribution
 
 Want to contribute? Fantastic!
 
-RatingReviews uses Gulp + Webpack for fast developing.
-Make a change in your file and instantanously see your updates!
+If you want to contribute to the project and make it better whether it's a bug fix, feature, improvement, suggestion, documentation or any sort of help, your help is very welcomed!
 
 ### Todos
 
@@ -144,24 +145,3 @@ Special thanks to the chart libraries where I took inspiration from.
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
-
-   [dill]: <https://github.com/joemccann/dillinger>
-   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
-   [john gruber]: <http://daringfireball.net>
-   [df1]: <http://daringfireball.net/projects/markdown/>
-   [markdown-it]: <https://github.com/markdown-it/markdown-it>
-   [Ace Editor]: <http://ace.ajax.org>
-   [node.js]: <http://nodejs.org>
-   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
-   [jQuery]: <http://jquery.com>
-   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
-   [express]: <http://expressjs.com>
-   [AngularJS]: <http://angularjs.org>
-   [Gulp]: <http://gulpjs.com>
-
-   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
-   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
-   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
-   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
-   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
-   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
