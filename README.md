@@ -11,7 +11,7 @@ RatingReviews (*Rating and Reviews*) is a widget or layout that adds Rating and 
 ### Screenshots
 
 | [![VideoBlocks](https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/logo.png)](http://videoblocks.com)  | [![AudioBlocks](https://dtyn3c8zjrx01.cloudfront.net/img/assets/audioblocks/images/logo.png)](http://audioblocks.com) | [![GraphicStock](http://www.graphicstock.com/images/logo.jpg)](http://graphicstock.com) |
-[![AudioBlocks](https://dtyn3c8zjrx01.cloudfront.net/img/assets/audioblocks/images/logo.png)](http://audioblocks.com) |
+[![AudioBlocks](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/0.png)](http://audioblocks.com) |
 |:---:|:---:|:---:|:---:|
 | playstore (*style1*) | appstore (*style2*) | customized | customized |
 
