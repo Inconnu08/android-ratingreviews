@@ -116,7 +116,7 @@ If you want to contribute to the project and make it better whether it's a bug f
  - Rounded bars
  - Optimization
  
- *Check issues*
+ [*Check issues*](https://github.com/Inconnu08/android-ratingreviews/issues)
 
 ### Motivation
 
