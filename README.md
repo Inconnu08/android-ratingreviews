@@ -24,6 +24,8 @@ You can also:
 
 
 ### Installation
+Make sure your project is migrated to  [**AndroidX**](https://developer.android.com/jetpack/androidx). 
+
 In your root build.gradle at the end of repositories:
 ```
 	allprojects {
