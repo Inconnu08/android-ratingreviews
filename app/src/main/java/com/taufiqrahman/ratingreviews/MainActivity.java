@@ -43,4 +43,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Example2Activity.class);
         startActivity(intent);
     }
+
+    public void goToRoundBarSample(View view){
+        startActivity(new Intent(this,RoundBarSampleActivity.class));
+    }
 }
