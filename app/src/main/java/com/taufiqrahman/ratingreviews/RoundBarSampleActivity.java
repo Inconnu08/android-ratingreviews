@@ -1,23 +1,19 @@
 package com.taufiqrahman.ratingreviews;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
 import android.graphics.Color;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-
 import com.taufiqrahman.reviewratings.BarLabels;
 import com.taufiqrahman.reviewratings.RatingReviews;
 
 import java.util.Random;
 
-public class MainActivity extends AppCompatActivity {
+public class RoundBarSampleActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_round_bar_sample);
 
         RatingReviews ratingReviews = (RatingReviews) findViewById(R.id.rating_reviews);
 
@@ -37,14 +33,5 @@ public class MainActivity extends AppCompatActivity {
         };
 
         ratingReviews.createRatingBars(100, BarLabels.STYPE1, colors, raters);
-    }
-
-    public void callExample2Activity(View view) {
-        Intent intent = new Intent(this, Example2Activity.class);
-        startActivity(intent);
-    }
-
-    public void goToRoundBarSample(View view) {
-        startActivity(new Intent(this, RoundBarSampleActivity.class));
     }
 }
