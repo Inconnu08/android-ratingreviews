@@ -15,7 +15,7 @@ RatingReviews (*Rating and Reviews*) is a widget or layout that adds Rating and 
 | [![](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/0.png)](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/0.png)  | [![](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/1.png)](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/1.png) | [![](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/2.png)](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/2.png) |
 [![](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/3.png)](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/3.png) |
 |:---:|:---:|:---:|:---:|
-| playstore (*style1*) | appstore (*style2*) | customized (*style2*) | customized (*style2*) |
+| playstore (*style1*) | appstore (*style2*) | playstore new (*rounded*) | customized (*style2*) |
 
 
 You can also:
@@ -38,7 +38,7 @@ In your root build.gradle at the end of repositories:
 ```
 In your app build.gradle:
 ```
-implementation 'com.github.Inconnu08:android-ratingreviews:1.0.0'
+implementation 'com.github.Inconnu08:android-ratingreviews:1.1.0'
 ```
 
 ### Usage
