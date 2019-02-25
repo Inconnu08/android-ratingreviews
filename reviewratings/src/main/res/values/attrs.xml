@@ -8,7 +8,7 @@
         </attr>
 
         <attr name="color" format="color" />
-        <attr name="round_corner" format="boolean"/>
+        <attr name="rounded" format="boolean"/>
         <attr name="gradiant" format="integer" />
         <attr name="width" format="dimension" />
         <attr name="text_size" format="dimension" />

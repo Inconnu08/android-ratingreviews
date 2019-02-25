@@ -91,7 +91,7 @@ public class RatingReviews extends FrameLayout {
         mBarMaxValue = a.getInt(R.styleable.RatingReviews_max_value, 0);
         mBarSpaces = a.getDimensionPixelSize(R.styleable.RatingReviews_spaces,
                 (int) Utils.convertDpToPixel(Utils.DEFAULT_BAR_SPACE, mCtx));
-        isRoundCorner = a.getBoolean(R.styleable.RatingReviews_round_corner, false);
+        isRoundCorner = a.getBoolean(R.styleable.RatingReviews_rounded, false);
 
         isShowLabel = a.getBoolean(R.styleable.RatingReviews_show_label, true);
         isShowRaters = a.getBoolean(R.styleable.RatingReviews_show_raters, true);
