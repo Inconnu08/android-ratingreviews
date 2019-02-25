@@ -22,6 +22,7 @@
       bar:animation="true"
       bar:max_value="100"
       bar:show_label="true"
+      bar:show_raters="false"
       bar:spaces="7dp"
       bar:text_color="#333333"
       bar:text_size="10sp"
