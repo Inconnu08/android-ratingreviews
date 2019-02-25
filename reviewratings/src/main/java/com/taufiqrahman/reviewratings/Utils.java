@@ -20,6 +20,8 @@ package com.taufiqrahman.reviewratings;
 
 import android.content.Context;
 import android.graphics.Color;
+import android.graphics.drawable.Drawable;
+import android.graphics.drawable.GradientDrawable;
 import android.util.DisplayMetrics;
 
 
@@ -48,5 +50,20 @@ class Utils {
      */
     static float convertPixelsToDp(float px, Context context) {
         return px / ((float) context.getResources().getDisplayMetrics().densityDpi / DisplayMetrics.DENSITY_DEFAULT);
+    }
+
+    /**
+     * @param bgColor Background color of bar.
+     * @param radius  Corner Radius of bar.
+     * @return Rounded Corner Drawable.
+     */
+    static Drawable getRoundedBarDrawable(int bgColor, int radius) {
+        GradientDrawable drawable = new GradientDrawable();
+        drawable.setShape(GradientDrawable.RECTANGLE);
+        drawable.setCornerRadii(new float[]{
+                radius, radius, radius, radius, radius, radius, radius, radius
+        });
+        drawable.setColor(bgColor);
+        return drawable;
     }
 }
