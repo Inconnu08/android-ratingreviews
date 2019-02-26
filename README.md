@@ -3,8 +3,9 @@
 # RatingReviews
 ___
 
-![](https://img.shields.io/badge/build-passing-brightgreen.svg) ![](https://img.shields.io/badge/API-16%2B-red.svg) ![](https://img.shields.io/badge/release-v1.0.0-blue.svg) ![](https://img.shields.io/badge/tag-v1.0.0-blue.svg) ![](http://img.shields.io/badge/license-Apache_2.0-red.svg) ![](https://img.shields.io/badge/contributions-welcomed-orange.svg)
+![](https://img.shields.io/badge/build-passing-brightgreen.svg) ![](https://img.shields.io/badge/API-16%2B-red.svg) ![](https://img.shields.io/badge/release-v1.1.0-blue.svg) ![](http://img.shields.io/badge/license-Apache_2.0-red.svg) ![](https://img.shields.io/badge/contributions-welcomed-orange.svg)
 [![](https://jitpack.io/v/Inconnu08/android-ratingreviews.svg)](https://jitpack.io/#Inconnu08/android-ratingreviews)
+[![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-RatingReviews-green.svg?style=flat )]( https://android-arsenal.com/details/1/7529 ) 
 
 RatingReviews (*Rating and Reviews*) is a widget or layout that adds Rating and Reviews bar to your app similar to the ones seen on Google playstore and Apple App store. It gives you a beautiful visual summary of the number of raters and ratings they gave on a specific item. And of course it is highly customizable to fit your app theme! ✨✂📐🛠 
 
@@ -14,7 +15,7 @@ RatingReviews (*Rating and Reviews*) is a widget or layout that adds Rating and 
 | [![](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/0.png)](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/0.png)  | [![](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/1.png)](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/1.png) | [![](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/2.png)](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/2.png) |
 [![](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/3.png)](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/3.png) |
 |:---:|:---:|:---:|:---:|
-| playstore (*style1*) | appstore (*style2*) | customized (*style2*) | customized (*style2*) |
+| playstore (*style1*) | appstore (*style2*) | playstore new (*rounded*) | customized (*style2*) |
 
 
 You can also:
@@ -37,7 +38,7 @@ In your root build.gradle at the end of repositories:
 ```
 In your app build.gradle:
 ```
-implementation 'com.github.Inconnu08:android-ratingreviews:1.0.0'
+implementation 'com.github.Inconnu08:android-ratingreviews:1.1.0'
 ```
 
 ### Usage
@@ -103,6 +104,7 @@ Table below shows the parameters and attributes for furthur customization to sui
 | text_size | text size of labels  | 10sp, 12sp etc |
 | width | bar width  | 8dp, 15dp etc |
 | spaces | space between bars  | 1sp, 2dp etc |
+| rounded | round corners of bars  | true, false |
 
 
 ### Contribution
@@ -113,7 +115,6 @@ If you want to contribute to the project and make it better whether it's a bug f
 
 ### Todos
 
- - Rounded bars
  - Optimization
  
  [*Check issues*](https://github.com/Inconnu08/android-ratingreviews/issues)
@@ -145,7 +146,7 @@ Special thanks to the chart libraries where I took some inspiration from.
 <div align="center">
   <sub>Built with ❤︎ by
   <a href="https://twitter.com/taufiqr45780657">Taufiq Rahman</a> and
-  <a href="/contributors">
+  <a href="https://github.com/Inconnu08/android-ratingreviews/blob/master/CONTRIBUTORS.md">
     contributors
   </a>
 </div>
