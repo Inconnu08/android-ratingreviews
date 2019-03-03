@@ -7,7 +7,7 @@ ___
 [![](https://jitpack.io/v/Inconnu08/android-ratingreviews.svg)](https://jitpack.io/#Inconnu08/android-ratingreviews)
 [![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-RatingReviews-green.svg?style=flat )]( https://android-arsenal.com/details/1/7529 ) 
 
-RatingReviews (*Rating and Reviews*) is a widget or layout that adds Rating and Reviews bar to your app similar to the ones seen on Google playstore and Apple App store. It gives you a beautiful visual summary of the number of raters and ratings they gave on a specific item. And of course it is highly customizable to fit your app theme! ✨✂📐🛠 
+RatingReviews (*Rating and Reviews*) is a widget or layout that adds Rating and Reviews bar to your app similar to the ones seen on Google playstore and Apple App store. It gives you a beautiful visual summary of the number of raters and ratings they gave on a specific item. And of course it is highly customizable to fit your app theme! ⭐🌟✨
 
 
 ### Screenshots
@@ -109,9 +109,9 @@ Table below shows the parameters and attributes for furthur customization to sui
 
 ### Contribution
 
-Want to contribute? Fantastic!
+Want to contribute? Fantastic! 
 
-If you want to contribute to the project and make it better whether it's a bug fix, feature, improvement, suggestion, documentation or any sort of help, your help is very welcomed!
+If you want to contribute to the project and make it better whether it's a bug fix, feature, improvement, suggestion, documentation or any sort of help, your help is very welcomed! ❤
 
 ### Todos
 
