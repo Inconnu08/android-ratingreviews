@@ -3,7 +3,7 @@
 # RatingReviews
 ___
 
-![](https://img.shields.io/badge/build-passing-brightgreen.svg) ![](https://img.shields.io/badge/API-16%2B-red.svg) ![](https://img.shields.io/badge/release-v1.1.0-blue.svg) ![](http://img.shields.io/badge/license-Apache_2.0-red.svg) ![](https://img.shields.io/badge/contributions-welcomed-orange.svg)
+![](https://img.shields.io/badge/build-passing-brightgreen.svg) ![](https://img.shields.io/badge/API-16%2B-red.svg) ![](https://img.shields.io/badge/release-v1.2.0-blue.svg) ![](http://img.shields.io/badge/license-Apache_2.0-red.svg) ![](https://img.shields.io/badge/contributions-welcomed-orange.svg)
 [![](https://jitpack.io/v/Inconnu08/android-ratingreviews.svg)](https://jitpack.io/#Inconnu08/android-ratingreviews)
 [![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-RatingReviews-green.svg?style=flat )]( https://android-arsenal.com/details/1/7529 ) 
 
