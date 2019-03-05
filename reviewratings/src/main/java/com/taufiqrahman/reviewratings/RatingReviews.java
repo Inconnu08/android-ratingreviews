@@ -22,8 +22,10 @@ import android.animation.LayoutTransition;
 import android.animation.ValueAnimator;
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.graphics.drawable.GradientDrawable;
 import android.os.Build;
 import android.util.AttributeSet;
+import android.util.Pair;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -38,6 +40,7 @@ import java.util.List;
 import java.util.Locale;
 
 import static com.taufiqrahman.reviewratings.Utils.getRoundedBarDrawable;
+import static com.taufiqrahman.reviewratings.Utils.getRoundedBarGradientDrawable;
 
 public class RatingReviews extends FrameLayout {
     private Context mCtx;
@@ -153,6 +156,29 @@ public class RatingReviews extends FrameLayout {
      *
      * @param maxBarValue max value for the Bars.
      * @param labels      format and styling of the label texts.
+     * @param colors      expects an array of Pairs composed of the start and end color for the gradient.
+     * @param raters      expects an array of the raters for each stars given.
+     */
+    public void createRatingBars(int maxBarValue, String labels[], Pair colors[], int raters[]) {
+
+        setMaxBarValue(maxBarValue);
+
+        for (int i = 0; i < mNumOfBars; i++) {
+            Bar bar = new Bar();
+            bar.setRaters(raters[i]);
+            bar.setStartColor((int) colors[i].first);
+            bar.setEndColor((int) colors[i].second);
+            bar.setStarLabel(labels[i]);
+            addBar(bar);
+        }
+    }
+
+
+    /**
+     * createRatingBars creates the ratingreviews with values given by user.
+     *
+     * @param maxBarValue max value for the Bars.
+     * @param labels      format and styling of the label texts.
      * @param color       expects a color-int (parseColor) that is applied to every rating bar.
      * @param raters      expects an array of the raters for each stars given.
      */
@@ -213,10 +239,26 @@ public class RatingReviews extends FrameLayout {
             @Override
             public void run() {
                 int radius = view.getHeight() / 2; //getting height inside post method to ensure view has drawn
-                if (isRoundCorner) {
-                    view.findViewById(R.id.linear_bar).setBackground(getRoundedBarDrawable(bgColor, radius));
+
+                if (bar.isGradientBar()) {
+                    if (bar.getStartColor() == 0 || bar.getEndColor() == 0) {
+                        throw new RuntimeException("Gradient colors were not provided.");
+                    }
+                    if (isRoundCorner) {
+                        view.findViewById(R.id.linear_bar).setBackground(getRoundedBarGradientDrawable(bar.getStartColor(), bar.getEndColor(), radius));
+                    } else {
+                        GradientDrawable gradientDrawable = new GradientDrawable(
+                                GradientDrawable.Orientation.LEFT_RIGHT,
+                                new int[]{bar.getStartColor(), bar.getEndColor()}
+                        );
+                        view.findViewById(R.id.linear_bar).setBackground(gradientDrawable);
+                    }
                 } else {
-                    view.findViewById(R.id.linear_bar).setBackgroundColor(bgColor);
+                    if (isRoundCorner) {
+                        view.findViewById(R.id.linear_bar).setBackground(getRoundedBarDrawable(bgColor, radius));
+                    } else {
+                        view.findViewById(R.id.linear_bar).setBackgroundColor(bgColor);
+                    }
                 }
             }
         });

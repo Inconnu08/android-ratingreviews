@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RoundBarSampleActivity" >
+
+    <com.taufiqrahman.reviewratings.RatingReviews xmlns:bar="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/rating_reviews"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        bar:animation="true"
+        bar:max_value="100"
+        bar:show_label="true"
+        bar:show_raters="false"
+        bar:spaces="7dp"
+        bar:text_color="#333333"
+        bar:text_size="10sp"
+        bar:rounded="true"
+        bar:width="12dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="?android:selectableItemBackground"
+        android:fontFamily="@font/roboto"
+        android:text="4.7"
+        android:textColor="#333333"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/ratingBar"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="@+id/ratingBar"
+        app:layout_constraintTop_toTopOf="@+id/rating_reviews" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="@android:style/Widget.Material.Light.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:numStars="5"
+        android:progressTint="#0f9d58"
+        android:backgroundTint="#0f9d58"
+        android:rating="4"
+        android:stepSize="1"
+        app:layout_constraintBottom_toBottomOf="@+id/rating_reviews"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.07999998"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:text="756, 800"
+        android:textColor="#333333"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/ratingBar"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar"
+        android:layout_marginLeft="8dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="24dp"
+        android:text="Ratings &amp; Reviews"
+        android:textAppearance="@android:style/TextAppearance.Material.WindowTitle"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/rating_reviews"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

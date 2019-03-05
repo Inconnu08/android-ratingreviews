@@ -47,4 +47,12 @@ public class MainActivity extends AppCompatActivity {
     public void goToRoundBarSample(View view) {
         startActivity(new Intent(this, RoundBarSampleActivity.class));
     }
+
+    public void goToGradientSample(View view) {
+        startActivity(new Intent(this, GradientActivity.class));
+    }
+
+    public void goToRoundedGradientSample(View view) {
+        startActivity(new Intent(this, RoundedGradientActivity.class));
+    }
 }

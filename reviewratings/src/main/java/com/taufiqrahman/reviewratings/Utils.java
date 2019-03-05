@@ -23,6 +23,7 @@ import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
 import android.util.DisplayMetrics;
+import android.util.Pair;
 
 
 class Utils {
@@ -65,5 +66,24 @@ class Utils {
         });
         drawable.setColor(bgColor);
         return drawable;
+    }
+
+
+    /**
+     * @param startColor The start color for the Background gradient.
+     * @param endColor The end color for the Background gradient.
+     * @param radius  Corner Radius of bar.
+     * @return Rounded Corner Drawable.
+     */
+    static GradientDrawable getRoundedBarGradientDrawable(int startColor, int endColor, int radius) {
+
+        GradientDrawable gradientDrawable = new GradientDrawable(
+                GradientDrawable.Orientation.LEFT_RIGHT,
+                new int[] {startColor, endColor});
+        gradientDrawable.setShape(GradientDrawable.RECTANGLE);
+        gradientDrawable.setCornerRadii(new float[]{
+                radius, radius, radius, radius, radius, radius, radius, radius
+        });
+        return gradientDrawable;
     }
 }
