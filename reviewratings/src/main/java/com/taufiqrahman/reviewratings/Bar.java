@@ -26,6 +26,7 @@ public class Bar {
     private String starLabel;
     private int raters;
     private int color;
+    private int startColor;
     private int endColor;
 
     public Bar() {
@@ -76,5 +77,13 @@ public class Bar {
 
     public boolean isGradientBar() {
         return endColor != 0;
+    }
+
+    public int getStartColor() {
+        return startColor;
+    }
+
+    public void setStartColor(int startColor) {
+        this.startColor = startColor;
     }
 }

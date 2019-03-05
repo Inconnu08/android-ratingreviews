@@ -166,7 +166,7 @@ public class RatingReviews extends FrameLayout {
         for (int i = 0; i < mNumOfBars; i++) {
             Bar bar = new Bar();
             bar.setRaters(raters[i]);
-            bar.setColor((int) colors[i].first);
+            bar.setStartColor((int) colors[i].first);
             bar.setEndColor((int) colors[i].second);
             bar.setStarLabel(labels[i]);
             addBar(bar);
@@ -241,12 +241,15 @@ public class RatingReviews extends FrameLayout {
                 int radius = view.getHeight() / 2; //getting height inside post method to ensure view has drawn
 
                 if (bar.isGradientBar()) {
+                    if (bar.getStartColor() == 0 || bar.getEndColor() == 0) {
+                        throw new RuntimeException("Gradient colors were not provided.");
+                    }
                     if (isRoundCorner) {
-                        view.findViewById(R.id.linear_bar).setBackground(getRoundedBarGradientDrawable(bar.getColor(), bar.getEndColor(), radius));
+                        view.findViewById(R.id.linear_bar).setBackground(getRoundedBarGradientDrawable(bar.getStartColor(), bar.getEndColor(), radius));
                     } else {
                         GradientDrawable gradientDrawable = new GradientDrawable(
                                 GradientDrawable.Orientation.LEFT_RIGHT,
-                                new int[]{bar.getColor(), bar.getEndColor()}
+                                new int[]{bar.getStartColor(), bar.getEndColor()}
                         );
                         view.findViewById(R.id.linear_bar).setBackground(gradientDrawable);
                     }
