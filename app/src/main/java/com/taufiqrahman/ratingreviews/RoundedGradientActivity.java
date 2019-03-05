@@ -21,11 +21,11 @@ public class RoundedGradientActivity extends AppCompatActivity {
         RatingReviews ratingReviews = (RatingReviews) findViewById(R.id.rating_reviews);
 
         Pair colors[] = new Pair[]{
-                new Pair<>(Color.parseColor("#0e9d58"), Color.parseColor("#1e88e5")),
-                new Pair<>(Color.parseColor("#bfd047"), Color.parseColor("#5c6bc0")),
-                new Pair<>(Color.parseColor("#ffc105"), Color.parseColor("#d81b60")),
-                new Pair<>(Color.parseColor("#ef7e14"), Color.parseColor("#8bc34a")),
-                new Pair<>(Color.parseColor("#d36259"), Color.parseColor("#ea80fc"))
+                new Pair<>(Color.parseColor("#0c96c7"), Color.parseColor("#00fe77")),
+                new Pair<>(Color.parseColor("#7b0ab4"), Color.parseColor("#ff069c")),
+                new Pair<>(Color.parseColor("#fe6522"), Color.parseColor("#fdd116")),
+                new Pair<>(Color.parseColor("#104bff"), Color.parseColor("#67cef6")),
+                new Pair<>(Color.parseColor("#ff5d9b"), Color.parseColor("#ffaa69"))
         };
 
         int minValue = 30;
