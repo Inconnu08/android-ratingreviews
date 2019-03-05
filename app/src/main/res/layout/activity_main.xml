@@ -16,8 +16,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499"
         bar:animation="true"
+        bar:layout_constraintVertical_bias="0.19"
         bar:max_value="100"
         bar:show_label="true"
         bar:spaces="0dp"
@@ -104,31 +104,36 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
         android:onClick="callExample2Activity"
-        android:text="Example 2"
+        android:text="Apple App Store Sample"
+        android:textAllCaps="false"
         app:layout_constraintBottom_toTopOf="@id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="16dp" />
+        app:layout_constraintTop_toBottomOf="@+id/rating_reviews"
+        app:layout_constraintVertical_bias="1.0" />
+
     <Button
         android:id="@+id/button2"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
         android:onClick="goToRoundBarSample"
-        android:text="Rounded Bar Samples"
+        android:text="Rounded Bar Sample"
+        android:textAllCaps="false"
         app:layout_constraintBottom_toTopOf="@id/gradientBtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="16dp"
-        android:textAllCaps="false"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/gradientBtn"
@@ -136,16 +141,16 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
         android:onClick="goToGradientSample"
-        android:text="Gradient Bar Samples"
+        android:text="Gradient Bar Sample"
+        android:textAllCaps="false"
         app:layout_constraintBottom_toTopOf="@+id/roundedGradientBtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="16dp"
-        android:textAllCaps="false"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/roundedGradientBtn"
@@ -153,16 +158,16 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
         android:onClick="goToRoundedGradientSample"
-        android:text="Rounded Gradient Bar Samples"
+        android:text="Rounded Gradient Bar Sample"
+        android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="16dp"
-        android:textAllCaps="false"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
