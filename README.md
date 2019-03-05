@@ -15,11 +15,17 @@ RatingReviews (*Rating and Reviews*) is a widget or layout that adds Rating and 
 | [![](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/0.png)](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/0.png)  | [![](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/1.png)](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/1.png) | [![](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/2.png)](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/2.png) |
 [![](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/3.png)](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/3.png) |
 |:---:|:---:|:---:|:---:|
-| playstore (*style1*) | appstore (*style2*) | playstore new (*rounded*) | customized (*style2*) |
+| playstore (*style1*) | appstore (*style2*) | playstore (*new rounded*) | customized (*style2*) |
 
+| [![](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/6.png)](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/6.png)  | [![](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/7.png)](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/7.png) | [![](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/8.png)](https://github.com/Inconnu08/android-ratingreviews/blob/master/screenshots/8.png) |
+|:---:|:---:|:---:|
+| gradient (*rounded*) | gradient | playstore (*old*) |
+
+*All of these samples can be found in [app](https://github.com/Inconnu08/android-ratingreviews/tree/master/app/src/main)*
 
 You can also:
-  - Take an existing style (*style1 and style2*) and customise it to get your desired style.
+  - Take an existing style and customise it to get your desired style. 
+  - To add gradient colors to bar, add an array of pairs to the colors parameter in your code. See sample.
 
 
 
@@ -38,7 +44,7 @@ In your root build.gradle at the end of repositories:
 ```
 In your app build.gradle:
 ```
-implementation 'com.github.Inconnu08:android-ratingreviews:1.1.0'
+implementation 'com.github.Inconnu08:android-ratingreviews:1.2.0'
 ```
 
 ### Usage
