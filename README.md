@@ -7,7 +7,7 @@ ___
 [![](https://jitpack.io/v/Inconnu08/android-ratingreviews.svg)](https://jitpack.io/#Inconnu08/android-ratingreviews)
 [![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-RatingReviews-green.svg?style=flat )]( https://android-arsenal.com/details/1/7529 ) 
 
-RatingReviews (*Rating and Reviews*) is a widget or layout that adds Rating and Reviews bar to your app similar to the ones seen on Google playstore and Apple App store. It gives you a beautiful visual summary of the number of raters and ratings they gave on a specific item. And of course it is highly customizable to fit your app theme! ⭐🌟✨
+RatingReviews (*Rating and Reviews*) is a widget and layout that adds a "Rating & Reviews" bar to your app, similar to the ones seen on Google Play Store and Apple App Store. It provides a beautiful visual summary of the number of raters along with the ratings they gave on a specific item. Of course, it is also highly customizable to fit your app themes! ⭐🌟✨
 
 
 ### Screenshots
@@ -24,8 +24,8 @@ RatingReviews (*Rating and Reviews*) is a widget or layout that adds Rating and 
 *All of these samples can be found in [app](https://github.com/Inconnu08/android-ratingreviews/tree/master/app/src/main)*
 
 You can also:
-  - Take an existing style and customise it to get your desired style. 
-  - To add gradient colors to bar, add an array of pairs to the colors parameter in your code. See sample.
+  - Take an existing style and customise it to be your desired style. 
+  - Add gradient colors to the bar and add an array of pairs to the colors parameter in your code. See the sample for more details.
 
 
 
@@ -49,7 +49,7 @@ implementation 'com.github.Inconnu08:android-ratingreviews:1.2.0'
 
 ### Usage
 
-Using RatingReviews is very simple and straight forward. Here is an example:
+Using RatingReviews is simple. Here is an example:
 >java
 
 ```
@@ -99,7 +99,7 @@ Using RatingReviews is very simple and straight forward. Here is an example:
 
 ### Specification
 
-Table below shows the parameters and attributes for furthur customization to suit your needs:
+The table below shows the parameters and the attributes for furthur customization:
 
 | Attribute | Description | Options (examples) |
 | ------ | ------ | ------ |
@@ -117,7 +117,7 @@ Table below shows the parameters and attributes for furthur customization to sui
 
 Want to contribute? Fantastic! 
 
-If you want to contribute to the project and make it better whether it's a bug fix, feature, improvement, suggestion, documentation or any sort of help, your help is very welcomed! ❤
+If you want to contribute to the project and make it better (whether it's a bug fix, feature, improvement, suggestion, documentation or any sort of help), your help is very welcomed! ❤
 
 ### Todos
 
@@ -127,7 +127,7 @@ If you want to contribute to the project and make it better whether it's a bug f
 
 ### Motivation
 
-There was no visual 5 star rating system right off the bat when I needed for a project.
+There was no visual 5 star rating system when I needed it for a project.
 Special thanks to the chart libraries where I took some inspiration from.
 
 ### License
